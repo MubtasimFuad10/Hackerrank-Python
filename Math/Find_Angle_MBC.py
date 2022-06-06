@@ -1,7 +1,7 @@
 import math
 a, b = int(input()), int(input())
 c=int(round(math.degrees(math.atan2(a, b)))) #--> returns the arc tangent of y/x, in radians
-print(c, end=u'\N{DEGREE SIGN}') #--> '\N{DEGREE SIGN}' this is used to print degree sign. #...
+print(c, end=u'\N{DEGREE SIGN}') #--> '\N{DEGREE SIGN}' this is used to print degree sign.
 
 
 
